@@ -1,0 +1,174 @@
+*{margin: 0;padding: 0;text-decoration: none;}
+.header{
+	width: 100%;
+	height: 50px;
+	background: #FFE300;
+}
+.logo{
+	width: 200px;
+	height: 40px;
+	margin-left: 50px;
+	font-size: 20px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+.nav{
+	width: 670px;
+	height: 50px;
+	margin-left: 200px;
+}
+.nav ul li{
+	width:70px;
+	height: 26px;
+	text-align: center;
+	padding:12px  0px ;
+	margin-left: 15px;
+	list-style:none;
+	float: left;
+}
+.nav ul li:hover a{
+	color: gold;
+	background: black;
+}
+.nav a{
+	width:80px;
+	height: 26px;
+	text-align: center;
+	padding:17px  18px ;
+	color: black;
+	text-decoration: none;
+}
+.login{
+	width: 250px;
+	height: 50px;
+	margin-left:110px;
+	font-size: 13px;
+}
+.login .search{
+	width:80px;
+	height: 50px;
+	float: left;
+}
+.login .logreg{
+	width:120px;
+	height:38px;
+	text-align: center;
+	padding-top: 12px;
+	color: black;
+	float: left;
+}
+.logreg a{
+	color: black;
+}
+.left{
+	float: left;
+}
+/* 内容区域 */
+.container{
+	width:1080px;
+	height:950px;
+	margin:50px auto;
+
+}
+hr{background#ccc;opacity:0.5;}
+.left-box{
+	width:220px;
+	height:950px;
+	float: left;
+	/* box-shadow: 0 0 5px #ccc; */
+}
+.left-box .lbox1{
+	height:30px;
+	padding-top: 5px;
+	margin-bottom: 15px;
+	box-shadow: 0 0 5px #ccc;
+}
+.right{
+	float: right;
+	margin-right: 5px;
+	font-weight: bold;
+}
+.lbox2 {
+	height:420px;
+	box-shadow: 0 0 5px #ccc;
+}
+.lbox2 ul li{
+	height:27px;
+	list-style: none;
+	padding: 8px;
+	/* box-shadow: 0 0 5px #ccc; */
+}
+.lbox2 p{
+	text-align: center;
+	height:15px;
+	padding-top: 5px;
+	margin-bottom: 15px;
+}
+.lbox3{
+	height:410px;
+	padding: 5px 20px;
+	margin-top: 20px;
+	box-shadow: 0 0 5px #ccc;
+}
+.lbox3 p{
+	font-size: 13px;
+	line-height: 20px;
+}
+.right-box{
+	width:830px;
+	height:950px;
+	float: right;
+}
+.right-box .rbox1{
+	height:30px;
+	padding-top: 5px;
+	padding-left: 25px;
+	margin-bottom: 15px;
+	box-shadow: 0 0 5px #ccc;
+}
+.right-box .rbox2{
+	height:220px;
+	margin-top: 5px;
+	box-shadow: 0 0 5px #ccc;
+}
+.rbox2 .num{
+	width:120px;
+	height:140px;
+	text-align: center;
+	padding: 40px;
+	float: left;
+}
+.num .sz{
+	text-align: center;
+	font-size:60px;
+}
+.rbox2 .trumb img{
+	width:250px;
+	height:170px;
+	margin-top: 20px;
+	float: left;
+}
+.rbox2 .intro{
+	width:300px;
+	height:150px;
+	padding-left: 20px;
+	margin-top: 30px;
+	float: left;
+}
+
+
+/* 尾部 */
+.footer{
+	width: 100%;
+	height:50px;
+	background: #4B4B4B;
+}
+.copyr{
+	width:1000px;
+	height:40px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	margin:10px auto;
+}
